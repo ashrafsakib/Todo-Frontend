@@ -8,11 +8,20 @@ form{
 }
 
 .todo-container {
+    margin-top: 10px;
     max-width: 500px;
     width: 100%;
+    background-color: blueviolet;
+    color: #260049;
 }
 
-
+.list-group-item{
+    font-weight: bold;
+}
 .list-group-item:hover {
     background: #eef4f9;
+}
+
+input, .list-group-item{
+    color: #220041 !important;
 }
