@@ -1,6 +1,6 @@
 import { Todos } from "./classes/Todos.js";
 
-const BACKEND_URL = "http://127.0.0.1:5000";
+const BACKEND_URL = "https://todo-server-br7v.onrender.com";
 const todos = new Todos(BACKEND_URL);
 
 const list = document.querySelector("ul");
